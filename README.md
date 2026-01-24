@@ -35,8 +35,8 @@ https://www.figma.com/design/opLphKmHq2loVdSZdqGywv/skilled-elearning-landing-pa
 სასურველია (მაგრამ არასავალდებულო) ნამუშევრის ატვირთვა **GitHub Pages**-ზე, რათა შედეგი ლინკის სახით იყოს ხელმისაწვდომი.
 გითჰაბ ფეიჯების გამოყენების შემთხვევაში ასევე README-ფაილში დაამატეთ ლინკი მოცემულ ადგილას ქვემოთ
 
-ლინკის ადგილი:["https://nodo991.github.io/Positions/"] 
-              ["https://nodo991.github.io/Positions2/"]
+1 ლინკის ადგილი:["https://nodo991.github.io/Positions/"] 
+2 ლინკის ადგილი:["https://nodo991.github.io/Positions2/"]
 
 ---
 
