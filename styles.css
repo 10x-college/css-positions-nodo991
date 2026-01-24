@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #19a1ae;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    background-image: 
+        url('Oval Copy 30.png'), 
+        url('Oval Copy 32.png');
+    background-repeat: no-repeat;
+    background-position: left 15vw top 0vh, right 15vw bottom 0vh;
+    background-size: auto;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 50px 100px -20px rgba(8, 48, 65, 0.5);
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.card__header {
+    height: 160px;
+}
+
+.card__bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card__profile-img-container {
+    margin-top: -60px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.card__profile-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.card__body {
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.card__name {
+    font-size: 1.15rem;
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+}
+
+.card__age {
+    font-weight: 400;
+    color: var(--gray-blue);
+    margin-left: 8px;
+}
+
+.card__location {
+    font-size: 0.85rem;
+    color: var(--gray-blue);
+    letter-spacing: 1px;
+}
+
+.card__stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 20px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-item__number {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.stat-item__label {
+    font-size: 0.65rem;
+    color: var(--gray-blue);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
